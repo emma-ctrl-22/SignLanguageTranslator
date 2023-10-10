@@ -5,7 +5,7 @@ import Homescreen from '../screens/Homescreen';
 import TabTwo from '../screens/TabTwo';
 import TabThree from '../screens/TabThree';
 const screenOptions={
-  tabBarShowLabel:true,
+  tabBarShowLabel:false,
   headerShown:true,
   tabBarStyle:{
     height:"11%",
