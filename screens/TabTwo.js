@@ -44,13 +44,13 @@ const TabTwo = () => {
                 <Text style={{color:'#849483',fontSize:20}}>Translate</Text>
               </TouchableOpacity>
             </View>
-            <View style={{backgroundColor:'#9AC4F8',width:'92%',height:'35%',marginTop:'4%'}}>
+            <View style={{backgroundColor:'dodgerblue',width:'92%',height:'35%',marginTop:'4%'}}>
                <Image source={displayedImage} style={{width:'98%',height:'98%'}}/>
             </View>
         </View>
       </ScrollView>
       
-    </SafeAreaView>
+    </SafeAreaView>MB
   )
 }
 
