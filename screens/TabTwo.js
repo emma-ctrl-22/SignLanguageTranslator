@@ -34,7 +34,7 @@ const TabTwo = () => {
         <View style={{width:'100%',flex:3,flexDirection:'column',alignItems:'center'}}>
             <View style={{height:'6%',width:'98%',flexDirection:'row',justifyContent:'space-evenly',alignItems:'center',paddingLeft:'8%'}}>
               <Text>EHGLISH</Text>
-              <View style={{backgroundColor:'black',width:'12%',heght:'50%',}}>
+              <View style={{backgroundColor:'purple',width:'12%',heght:'50%',}}>
               </View>
               <Text>SIGN LANGUAGE</Text>
             </View>
