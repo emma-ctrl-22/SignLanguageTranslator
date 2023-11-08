@@ -39,7 +39,7 @@ const TabTwo = () => {
               <Text>SIGN LANGUAGE</Text>
             </View>
             <View  style={{width:'98%',height:'36%',marginTop:'4%',alignItems:'center',justifyContent:'space-evenly'}}>
-              <TextInput placeholder='TAB TO ENTER TEXT' value={searchKeyword} onChangeText={(text) => setSearchKeyword(text)} style={{width:'100%',height:'70%',fontSize:30,backgroundColor:'dodgerblue',borderRadius:10}}/>
+              <TextInput placeholder='TAB TO ENTER TEXT' value={searchKeyword} onChangeText={(text) => setSearchKeyword(text)} style={{width:'100%',height:'70%',fontSize:30,backgroundColor:'black',borderRadius:10}}/>
               <TouchableOpacity onPress={handleSearch} style={{height:'20%',backgroundColor:'#1D1E2C',width:'50%',borderRadius:8,justifyContent:'center',alignItems:'center'}}>
                 <Text style={{color:'#849483',fontSize:20}}>Translate</Text>
               </TouchableOpacity>
